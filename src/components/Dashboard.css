@@ -1,0 +1,56 @@
+.dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.film-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.film-item {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  width: 100%;
+  max-width: 300px;
+}
+
+.film-details {
+  margin-bottom: 10px;
+}
+
+.film-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button, .delete-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button:hover, .delete-button:hover {
+  background-color: #0056b3;
+}
+
+.add-film {
+  display: inline-block;
+  background-color: #007bff; /* Color azul */
+  color: #fff;
+  padding: 20px; /* Aumentar el padding para hacerlo más grande */
+  border-radius: 50%;
+  font-size: 30px; /* Aumentar el tamaño de la fuente */
+  text-align: center;
+  line-height: 0;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añadir sombra para darle un efecto más bonito */
+  transition: background-color 0.3s
+}
